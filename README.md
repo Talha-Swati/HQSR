@@ -1,2 +1,2 @@
-# HQSR
-Quranic Reciter Mistake Detection System using machine learning to identify errors in Quranic recitation with audio feature extraction (MFCCs, spectral contrast, mel spectrogram, chroma) and an LSTM model, achieving about  95% F1 score.
+Holy Quran Speech Recognition System:
+This repository contains the implementation of a Quranic Reciter Mistake Detection System, a machine learning-based project for identifying errors in Quranic recitation. The system processes audio recordings of Surahs, extracting features like MFCCs, spectral contrast, mel spectrogram, and chroma using Librosa. An LSTM model, trained on a dataset of correct and incorrect recitations from 50 reciters and scholars, achieves a 97.6% F1 score on seen data. The project includes audio preprocessing, label encoding, and a TFLite model for deployment, integrated with a FastAPI backend and React frontend for real-time mistake detection.
